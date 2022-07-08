@@ -1,0 +1,67 @@
+nav
+    font-family: 'Roboto Condensed', sans-serif
+    position: fixed
+    top: 0
+    left: 0
+    width: 100vw
+    background-color: #526580
+    ul
+        display: flex
+        list-style: none
+        justify-content: flex-end
+        max-width: 1400px
+        
+
+        li
+            width: 15%
+            min-width: 120px
+            max-width: 150px
+            img
+                max-height: 70px
+                // position: absolute
+                // left: 20px
+                // top: 10px
+                justify-self: left
+                
+
+            a
+                position: relative
+                display: block
+                padding: 10px 30px
+                text-decoration: none
+                line-height: 50px
+                font-size: 1rem
+                text-transform: uppercase
+                text-align: center
+                color: white
+                transition: .3s linear
+                overflow-x: hidden
+                &:hover
+                    color: #347BD9
+                &::before
+                    position: absolute
+                    top: 80%
+                    left: 10%
+                    content: ""
+                    width: 80%
+                    height: 2px
+                    background-color: #fff
+                &::after
+                    position: absolute
+                    top: 80%
+                    left: -80%
+                    content: ""
+                    width: 80%
+                    height: 2px
+                    background-color: #347BD9
+                    transition: .2s linear
+                &:hover::after
+                    left: 10%
+                    
+                
+                
+                
+
+
+    
+    

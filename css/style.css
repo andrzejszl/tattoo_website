@@ -1,0 +1,111 @@
+.about {
+  padding-top: 100px;
+  background-color: #83A1CC;
+}
+.about h1 {
+  font-family: "Dancing Script", cursive, sans-serif;
+  width: 100%;
+  background-color: #526580;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.about h1 ~ h1 {
+  padding-top: 0;
+}
+.about .wrap {
+  padding: 30px;
+  display: flex;
+  margin-top: 30px;
+}
+.about .wrap .photo {
+  width: 50%;
+}
+.about .wrap .photo img {
+  width: 100%;
+}
+.about .wrap .aboutme {
+  width: 50%;
+  font-family: "Edu QLD Beginner", cursive, sans-serif;
+  font-size: 1.2rem;
+  padding: 20px;
+  padding-left: 40px;
+  text-align: justify;
+}
+
+nav {
+  font-family: "Roboto Condensed", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #526580;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  max-width: 1400px;
+}
+nav ul li {
+  width: 15%;
+  min-width: 120px;
+  max-width: 150px;
+}
+nav ul li img {
+  max-height: 70px;
+  justify-self: left;
+}
+nav ul li a {
+  position: relative;
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  transition: 0.3s linear;
+  overflow-x: hidden;
+}
+nav ul li a:hover {
+  color: #347BD9;
+}
+nav ul li a::before {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  content: "";
+  width: 80%;
+  height: 2px;
+  background-color: #fff;
+}
+nav ul li a::after {
+  position: absolute;
+  top: 80%;
+  left: -80%;
+  content: "";
+  width: 80%;
+  height: 2px;
+  background-color: #347BD9;
+  transition: 0.2s linear;
+}
+nav ul li a:hover::after {
+  left: 10%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  color: #fff;
+  background-color: #000;
+  max-width: 1400px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
