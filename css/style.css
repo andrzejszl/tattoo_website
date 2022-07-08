@@ -1,6 +1,5 @@
 .about {
   padding-top: 100px;
-  background-color: #83A1CC;
 }
 .about h1 {
   font-family: "Dancing Script", cursive, sans-serif;
@@ -21,6 +20,7 @@
 }
 .about .wrap .photo {
   width: 50%;
+  filter: brightness(89%);
 }
 .about .wrap .photo img {
   width: 100%;
@@ -28,7 +28,7 @@
 .about .wrap .aboutme {
   width: 50%;
   font-family: "Edu QLD Beginner", cursive, sans-serif;
-  font-size: 1.2rem;
+  font-size: 2rem;
   padding: 20px;
   padding-left: 40px;
   text-align: justify;
@@ -41,6 +41,7 @@ nav {
   left: 0;
   width: 100vw;
   background-color: #526580;
+  z-index: 9999;
 }
 nav ul {
   display: flex;
@@ -55,7 +56,9 @@ nav ul li {
 }
 nav ul li img {
   max-height: 70px;
-  justify-self: left;
+  position: absolute;
+  left: 20px;
+  top: 10px;
 }
 nav ul li a {
   position: relative;
@@ -96,6 +99,48 @@ nav ul li a:hover::after {
   left: 10%;
 }
 
+.gallery {
+  background-color: #000;
+}
+.gallery .photos {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.gallery .photos .photo {
+  position: relative;
+  height: 50vh;
+  width: 50%;
+  overflow: hidden;
+}
+.gallery .photos .photo:hover p {
+  font-size: 0;
+  background-color: transparent;
+  transform: scale(1.2);
+}
+.gallery .photos .photo p {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  line-height: 50vh;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.2s;
+}
+.gallery .photos .photo:hover img {
+  transform: scale(1.2);
+}
+.gallery .photos .photo img {
+  min-height: 100%;
+  min-width: 100%;
+  transition: 0.2s;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -104,8 +149,11 @@ nav ul li a:hover::after {
 
 body {
   font-size: 10px;
-  color: #fff;
+  color: #000;
   background-color: #000;
   max-width: 1400px;
   margin: 0 auto;
+}
+body section {
+  background-color: #83A1CC;
 }/*# sourceMappingURL=style.css.map */
