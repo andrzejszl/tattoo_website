@@ -1,5 +1,5 @@
 .contact
-    height: calc(90vh - 70px)
+    height: calc(93vh - 70px)
     font-size: 2rem
 
 
@@ -25,13 +25,26 @@
                 flex-direction: column
                 margin: 20px 0 0 20px
 
+            textarea
+                border: 3px #457DCC solid
+                margin: 10px
+                width: 80%
+                height: 250px
+                font-size: 1.6rem
+                text-transform: uppercase
+                padding-left: 10px
+
                 
             input
                 border: 3px #457DCC solid
                 margin: 10px
-                height: 30px
                 width: 80%
-                line-height: 2rem
+                font-size: 1.6rem
+                line-height: 2.2rem
+            
+
+              
+                
                 &:nth-last-child(1)
                     width: 200px
                     font-family: 'Roboto Condensed', sans-serif
@@ -46,7 +59,10 @@
                 
                     
                 &:nth-last-child(2)
+                    display: block
                     height: 200px
+                    
+                    
                 &::placeholder
                     text-transform: uppercase
                     padding-left: 10px
@@ -59,9 +75,21 @@
 
         .info
             width: 50%
+            font-family: 'Roboto Condensed', sans-serif
+            margin: 30px 0 0 40px
 
             p
-                font-size: 1rem
+                font-size: 2rem
+                padding: 10px
+                cursor: pointer
+                transition: .2s
+                &:hover
+                    color: #fff
+                i
+                    padding: 0 20px
+                    font-size: 3rem
+                    width: 100px
+                    vertical-align: -7px
 
 
 
