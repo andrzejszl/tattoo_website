@@ -7,5 +7,5 @@ Technologies used:
     -   SASS,
     -   JavaScript;
 
-    Images source: PixaBay;
+Images source: PixaBay;
 
