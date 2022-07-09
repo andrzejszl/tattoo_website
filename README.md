@@ -5,7 +5,8 @@ Technologies used:
 -   HTML,
 -   CSS,
 -   SASS,
--   JavaScript;
+-   JavaScript,
+-   jQuery;
 
 Images source: 
 -   mostly PixaBay,
