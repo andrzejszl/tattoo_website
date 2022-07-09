@@ -453,6 +453,128 @@ nav ul li a:hover::after {
     opacity: 0;
   }
 }
+@media (max-width: 1300px) and (orientation: landscape) {
+  .about .wrap .aboutme {
+    font-size: 1.5rem;
+  }
+}
+.about img.logo {
+  height: 250px;
+  top: 60px;
+}
+.about h1 {
+  font-size: 2rem;
+}
+.about .wrap {
+  padding: 10px;
+}
+.about .wrap .aboutme {
+  width: 70%;
+  font-size: 1.5rem;
+  padding: 10px 20px 10px 10px;
+}
+
+.staff .meet {
+  font-size: 2rem;
+  line-height: 80px;
+}
+.staff .wrap2 .member h1 {
+  top: 15%;
+  font-size: 3rem;
+}
+.staff .wrap2 .member h2 {
+  top: 25%;
+}
+
+.contact {
+  height: calc(93vh - 70px);
+}
+.contact p.title {
+  font-size: 2rem;
+  line-height: 80px;
+}
+.contact .wrap2 {
+  margin-top: 10px;
+}
+.contact .wrap2 .form {
+  padding-top: 20px;
+}
+.contact .wrap2 .form form textarea {
+  height: 150px;
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+.contact .wrap2 .form form input {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.about img.logo {
+  height: 200px;
+  top: 75px;
+}
+.about h1 {
+  font-size: 1.5rem;
+}
+.about .wrap .aboutme {
+  font-size: 1.1rem;
+  padding: 10px 20px 10px 0;
+}
+
+.gallery {
+  height: auto;
+}
+
+.staff .meet {
+  font-size: 1.5rem;
+  line-height: 60px;
+}
+.staff .wrap2 .member h1 {
+  top: 15%;
+  right: 0;
+  font-size: 2.5rem;
+}
+.staff .wrap2 .member h2 {
+  top: 30%;
+  right: 0;
+  font-size: 2rem;
+}
+
+.contact p.title {
+  font-size: 1.5rem;
+  line-height: 60px;
+}
+.contact .wrap2 {
+  margin-top: 5px;
+}
+.contact .wrap2 .form {
+  padding-top: 5px;
+}
+.contact .wrap2 .form form textarea {
+  height: 75px;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+.contact .wrap2 .form form input {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+.contact .wrap2 .info p {
+  font-size: 1rem;
+  padding: 5px;
+}
+.contact .wrap2 .info p i {
+  padding: 0 5px;
+  font-size: 1.5rem;
+  width: 50px;
+  vertical-align: -3px;
+}
+
+footer {
+  height: 7vh;
+  font-size: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
