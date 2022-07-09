@@ -3,9 +3,11 @@ This is my first simple website.
 
 Technologies used:
 -   HTML,
-    -   CSS,
-    -   SASS,
-    -   JavaScript;
+-   CSS,
+-   SASS,
+-   JavaScript;
 
-Images source: PixaBay;
+Images source: 
+-   mostly PixaBay,
+-   some others;
 
