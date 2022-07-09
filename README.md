@@ -1,1 +1,11 @@
-# My first website for barber shop
+Hello there!
+This is my first simple website.
+
+Technologies used:
+    -   HTML,
+    -   CSS,
+    -   SASS,
+    -   JavaScript;
+
+    Images source: PixaBay;
+
