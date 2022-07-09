@@ -2,7 +2,7 @@ Hello there!
 This is my first simple website.
 
 Technologies used:
-    -   HTML,
+-   HTML,
     -   CSS,
     -   SASS,
     -   JavaScript;
