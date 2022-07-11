@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>Barber Shop Jan Kowalski</title>
     <link rel="icon" type="img/favicon" href="/images/favicon.ico">
     <meta name="description" content="The Best Barber Shop in Warsaw">
@@ -15,12 +16,10 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name='keywords' content='barber, barbershop, barber near me'>
     <meta name='robots' content='index,follow'>
-
 </head>
 
 <body>
-
-    <nav>
+    <nav class="switch">
         <ul>
             <li><img src="img/logo2.png" alt="logo"></li>
             <li><a class="aboutme" href="#">About</a></li>
@@ -28,12 +27,12 @@
             <li><a class="sta" href="#">Staff</a></li>
             <li><a class="cont" href="#">Contact</a></li>
         </ul>
+        <div class="arrow burger"><i class="fa-solid fa-circle-arrow-right"></i></div>
     </nav>
     <section data-section="aboutme" id="aboutme" class="about">
         <img src="img/logo.png" alt="logo" class="logo">
         <h1>Barber Shop</h1>
         <h1>Jan Kowalski</h1>
-
         <div class="wrap">
             <div class="photo"><img src="img/autor.jpg" alt="jan kowwalski photo"></div>
             <p class="aboutme">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi architecto minima,
@@ -45,10 +44,7 @@
                 eligendi vel neque possimus, eveniet expedita laborum, odio cumque exercitationem culpa voluptatem
                 dolore voluptas reiciendis explicabo? Alias soluta amet illo doloremque inventore quos aspernatur?</p>
         </div>
-
-
     </section>
-
     <section data-section="new" id="new" class="gallery">
         <div class="photos">
             <div class="photo">
@@ -66,7 +62,6 @@
         </div>
         </div>
     </section>
-
     <section data-section="sta" id="sta" class="staff">
         <h2 class="meet">Meet our team</h2>
         <div class="wrap2">
@@ -78,7 +73,6 @@
             </div>
         </div>
     </section>
-
     <section data-section="cont" id="cont" class="contact">
         <p class="title">Get in touch</p>
         <div class="wrap2">
@@ -98,17 +92,15 @@
                 <p><i class="fa-brands fa-linkedin"></i>jankowalski</p>
             </div>
         </div>
-
     </section>
-
     <footer>
         <p> &copy; Website created by <span>Andrzej Szlachta</span></p>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="scripts/nav.js"></script>
     <script src="scripts/members.js"></script>
+    <script src="scripts/sideNav.js"></script>
 </body>
 
 </html>

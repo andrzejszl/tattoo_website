@@ -2,121 +2,590 @@
 
     .about
         .wrap
+            margin-left: 40px
             .aboutme
-                font-size: 1.5rem
+                font-size: 1.8rem
+                width: 70%
+                margin-left: 50px
 
+    .staff
+        .wrap2
+            .color
+                right: -5%
+
+            .grey
+                left: -10%
+ 
+            .member
+                h1
+                    right: -20%
+                    top: 20%
+
+                h2
+                    right: -20%
+                    top: 30%
 
 @media (max-width: 1024px) and (orientation: landscape)
 
-.about
-    img.logo
-        height: 250px
-        top: 60px
-    h1
-        font-size: 2rem
-    .wrap
-        padding: 10px       
-        .aboutme
-            width: 70%
+    .about
+        img.logo
+            height: 250px
+            top: 60px
+        h1
+            font-size: 2rem
+        .wrap
+            padding: 10px       
+            .aboutme
+                width: 70%
 
-            font-size: 1.5rem
-            padding: 10px 20px 10px 10px
+                font-size: 1.5rem
+                padding: 10px 20px 10px 10px
 
-.staff
-    .meet
-        font-size: 2rem
-        line-height: 80px
-    .wrap2 
-        .member
-            h1
-                top: 15%
-                font-size: 3rem
-            h2
-                top: 25%
+    .staff
+        .meet
+            font-size: 2rem
+            line-height: 80px
+        .wrap2 
+            .member
+                h1
+                    top: 15%
+                    font-size: 3rem
+                h2
+                    top: 25%
 
-
-.contact
-    height: calc(93vh - 70px)
-    p.title
-        font-size: 2rem
-        line-height: 80px
-    .wrap2
-        margin-top: 10px
-        .form
-            padding-top: 20px
-            form
-                textarea
-                    height: 150px
-                    font-size: 1.2rem
-                    padding-left: 10px
-                input
-                    font-size: 1.2rem
-                    line-height: 1.6rem
-
-
+    .contact
+        height: calc(93vh - 70px)
+        p.title
+            font-size: 2rem
+            line-height: 80px
+        .wrap2
+            margin-top: 10px
+            .form
+                padding-top: 20px
+                form
+                    textarea
+                        height: 150px
+                        font-size: 1.2rem
+                        padding-left: 10px
+                    input
+                        font-size: 1.2rem
+                        line-height: 1.6rem
 
 @media (max-width: 950px) and (orientation: landscape)
-.about
-    img.logo
-        height: 200px
-        top: 75px
-    h1
-        font-size: 1.5rem
-    .wrap    
-        .aboutme
-            font-size: 1.1rem
-            padding: 10px 20px 10px 0
+    .about
+        img.logo
+            height: 200px
+            top: 75px
+        h1
+            font-size: 1.5rem
+        .wrap    
+            .aboutme
+                font-size: 1.5rem
+                padding: 10px 20px 10px 0
+                margin-left: 70px
 
-.gallery
-    height: auto
+    .gallery
+        height: auto
 
+    .staff
+        .meet
+            font-size: 1.5rem
+            line-height: 60px
+        .wrap2 
+            .member
+                h1
+                    top: 15%
+                    right: -20%
+                    font-size: 3rem
+                    
+                h2
+                    top: 30%
+                    right: -20%
+                    font-size: 2.5rem
+            
+    .contact
+        p.title
+            font-size: 1.5rem
+            line-height: 60px
+        .wrap2
+            margin-top: 5px
+            .form
+                padding-top: 5px
+                form
+                    textarea
+                        height: 20vh
+                        font-size: 1rem
+                        padding-left: 10px
+                    input
+                        font-size: 1rem
+                        line-height: 1.2rem
 
-
-.staff
-    .meet
-        font-size: 1.5rem
-        line-height: 60px
-    .wrap2 
-        .member
-            h1
-                top: 15%
-                right: 0
-                font-size: 2.5rem
-                
-            h2
-                top: 30%
-                right: 0
-                font-size: 2rem
-           
-           
-
-.contact
-    p.title
-        font-size: 1.5rem
-        line-height: 60px
-    .wrap2
-        margin-top: 5px
-        .form
-            padding-top: 5px
-            form
-                textarea
-                    height: 75px
+            .info
+                p
                     font-size: 1rem
-                    padding-left: 10px
-                input
-                    font-size: 1rem
-                    line-height: 1.2rem
+                    padding: 5px
+                    i
+                        padding: 0 5px
+                        font-size: 1.5rem
+                        width: 50px
+                        vertical-align: -3px
 
-        .info
-            p
-                font-size: 1rem
-                padding: 5px
-                i
-                    padding: 0 5px
+    footer
+        height: 7vh
+        font-size: 1rem
+
+@media (max-width: 750px) and (min-height: 500px) and (orientation: landscape)
+
+    .staff
+        .wrap2 
+            .member
+                h1
+                    right: -15%
+                    font-size: 2.2rem
+                    
+                h2
+                    right: -15%
+                    font-size: 1.8rem
+            
+    .contact
+        .wrap2
+            .form
+                padding-top: 20px
+                padding-left: 20px
+                form
+                    textarea
+                        height: 25vh
+
+            .info
+                p
+                    font-size: 1.2rem
+                    padding: 10px
+                    padding-left: 30px
+                    i
+                        font-size: 1.8rem
+
+@media (max-width: 750px) and (max-height: 400px) and (orientation: landscape)
+
+    .contact
+        .wrap2
+            .form
+                padding-top: 5px
+                padding-left: 5px
+                form
+                    textarea
+                        height: 20vh
+                        margin: 5px
+                        font-size: 1rem
+                    input
+                        margin: 5px
+                        font-size: 1rem
+                        line-height: 1.2rem
+
+            .info
+                p
+                    font-size: 1rem
+                    padding: 3px
+                    padding-left: 30px
+                    i
+                        font-size: 1.5rem
+
+@media (max-width: 900px) and (min-height: 300px) and (orientation: landscape)
+
+    .contact
+        .wrap2
+            .form
+                padding-top: 5px
+                padding-left: 5px
+                form
+                    textarea
+                        height: 20vh
+                        margin: 5px
+                        font-size: 1rem
+                    input
+                        margin: 5px
+                        font-size: 1rem
+                        line-height: 1.2rem
+
+            .info
+                p
+                    font-size: 1rem
+                    padding: 3px
+                    padding-left: 30px
+                    i
+                        font-size: 1.5rem       
+
+@media (max-width: 580px) and (orientation: landscape)
+
+    .about
+        .wrap    
+            .aboutme
+                font-size: 0.8rem
+                padding: 5px 10px 5px 0
+
+    .staff
+        .wrap2 
+            .member
+                h1
+                    top: 10%
+                    font-size: 2rem
+                    
+                h2
+                    top: 30%
                     font-size: 1.5rem
-                    width: 50px
-                    vertical-align: -3px
+            
+    .contact
+        .wrap2
+            .form
+                padding-top: 2px
+                padding-left: 2px
+                form
+                    textarea
+                        height: 15vh
+                        margin: 3px
+                        font-size: 0.8rem
+                    input
+                        margin: 3px
+                        font-size: 0.8rem
+                        line-height: 1rem
 
-footer
-    height: 7vh
-    font-size: 1rem
+            .info
+                margin-top: 5px
+                p
+                    font-size: 0.8rem
+                    padding: 3px
+                    padding-left: 30px
+                    i
+                        font-size: 1.2rem     
+ 
+@media (max-width: 580px) and (min-height: 500px) and (orientation: landscape)
+
+    .about
+        .wrap
+            margin-top: 20px
+            .photo
+                width: 40%
+                img
+                    top: 0
+                    left: 70%
+            .aboutme
+                width: 70%
+                font-size: 1rem
+                padding: 10px 20px 10px 40px
+                margin-left: 50px
+
+    .staff
+        .wrap2
+            .color
+                right: -5%
+                height: 45%
+
+            .grey
+                left: -5%
+                bottom: 0
+                height: 70%
+                
+            .member
+                h1
+                    right: -25%
+                    top: 18%
+                    font-size: 2.5rem
+
+                h2
+                    right: -25%
+                    top: 30%
+                    font-size: 2rem
+
+    .contact
+        .wrap2
+            .form
+                padding-top: 25px
+                padding-left: 10px
+                form
+                    textarea
+                        height: 30vh
+                        margin: 5px
+                        font-size: 1rem
+                    input
+                        margin: 5px
+                        font-size: 1rem
+                        line-height: 1.2rem
+
+            .info
+                margin-top: 35px
+                p
+                    font-size: 1.2rem
+                    padding: 5px
+                    padding-left: 10px
+                    i
+                        font-size: 1.5rem    
+
+@media (orientation: portrait)
+    .about
+        .wrap
+            height: auto
+            .photo
+                position: relative
+                left: 50%
+                width: auto
+                height: 100vh
+                img
+                    top: 0
+            .aboutme
+                width: 100%
+                margin-top: 70vh
+
+    .staff 
+        .wrap2
+            .color
+                right: -10%
+                height: 35%
+            .grey
+                left: -40%
+                height: 75%
+            .member
+                h1
+                    right: -25%
+                    top: 19%
+                h2
+
+                    right: -25%
+                    top: 25%
+
+    .contact
+        height: auto
+        .wrap2
+            display: flex
+            flex-direction: column
+            flex-basis: 100%
+            .form
+                width: 100%
+                form
+                    textarea
+                        height: 25vh
+
+            .info
+                position: relative
+                width: 100%
+                margin: 5vh 0
+                top: 0
+                left: 50%
+                transform: translateX(-25%)
+                p
+                    font-size: 2rem
+                    padding: 10px
+                    cursor: pointer
+                    transition: .2s
+                    i
+                        padding: 0 20px
+                        font-size: 3rem
+                        width: 100px
+                        vertical-align: -7px
+
+@media (orientation: portrait) and (max-height: 1050px)
+    .staff 
+        .wrap2
+            .color
+                right: -8%
+                height: 35%
+            .grey
+                left: -25%
+                height: 70%
+
+@media (orientation: portrait) and (max-width: 720px)
+    .about
+        img.logo
+            height: 200px
+            top: 100px
+
+// side navigation
+@media (orientation: portrait) and (max-width: 590px)
+    nav
+        left: -120px
+        width: 120px
+        transition: .3s linear
+        height: 100vh
+        .arrow
+            display: block
+            position: absolute
+            left: 130px
+            top: 10px
+            i
+                font-size: 60px
+                color: white
+
+        ul
+            flex-direction: column
+            li
+                width: 120px
+                min-width: auto
+                margin-top: 70px
+                img
+                    left: 30px
+            li+li
+                margin-top: 0
+        .burger
+                transform: rotate(360deg)
+                transition: .3s linear
+        .burger.hide
+                transform: rotate(180deg)
+    nav.hide
+        left: 0
+
+    .about
+        padding-top: 0
+        img.logo
+            top: 0
+            right: 0
+            height: 150px
+        h1
+            font-size: 2rem
+            padding: 10px 0
+        .wrap
+            padding: 10px
+            margin-top: 40px
+            .aboutme
+                font-size: 1.5rem
+    .gallery
+        height: auto
+        .photos
+            flex-direction: column
+            .photo
+                width: 100%
+
+    .staff
+        height: 100vh
+        .meet
+            font-size: 2rem
+            line-height: 100px 
+        .wrap2
+            .color
+                right: -5%
+                bottom: 0
+                height: 30%
+            .grey
+                left: -30%
+                height: 60%
+            .member
+                h1
+                    right: 0
+                    top: 15%
+                    font-size: 3rem
+                h2
+                    right: 0
+                    top: 22%
+                    font-size: 3rem
+
+    .contact
+        p.title
+            font-size: 2rem
+            line-height: 100px
+
+        .wrap2
+            height: auto
+            .info
+                margin: 30px 0
+                top: 0
+                left: 45%
+                p
+                    font-size: 1.5rem
+                    padding: 10px
+                    padding-left: 0
+                    cursor: pointer
+                    transition: .2s
+                    i
+                        padding: 0 20px
+                        font-size: 2.2rem
+                        width: 100px
+                        vertical-align: -7px
+
+    footer
+        font-size: 1rem
+
+@media (orientation: portrait) and (max-width: 450px)
+    .about
+        img.logo
+            right: -5%
+            height: 150px
+
+    .staff
+        .wrap2
+            .color
+                right: -10%
+            .grey
+                left: -40%
+
+    .contact
+        .wrap2
+            .info
+                left: 35%
+
+@media (orientation: portrait) and (max-width: 390px)
+    .about
+        // padding-top: 100px
+        img.logo
+            right: -5%
+            top: 0
+            height: 120px
+        h1
+            font-size: 1.5rem
+        .wrap
+            .aboutme
+                font-size: 1.2rem
+                padding: 20px 20px 20px 20px
+
+
+    .staff
+        .meet
+        .wrap2
+            .member
+                h1
+                    font-size: 2.5rem
+                    top: 10%
+                h2
+                    font-size: 2rem
+                    top: 18%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .contact
+         .wrap2
+            .form
+                form
+                    textarea
+                        font-size: 1.2rem
+                    input
+                        font-size: 1.2rem
+                        line-height: 1.5rem
+
+                        &:nth-last-child(1)
+                            height: 50px
+                            border-radius: 20px
+
+            .info
+                p
+                    font-size: 1.2rem
+                    i
+                        font-size: 1.5rem
+                        vertical-align: -3px
+
+
+
+
+
+
+
+
+
+    
